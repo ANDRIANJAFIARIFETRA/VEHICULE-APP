@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jul 21, 2021 at 10:17 AM
+-- Generation Time: Jul 21, 2021 at 09:22 PM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 7.4.20
 
@@ -68,11 +68,14 @@ CREATE TABLE `marque` (
 --
 
 INSERT INTO `marque` (`code_marque`, `libelle_marque`, `img`) VALUES
+('BMW', 'BMW', 'logo-bmw_3c6df4212612349fa2ee713cf3149aea3a175d45.jpg'),
 ('DAF', 'DAF', 'DAF-logo-EEBC131CD1-seeklogo.com.png'),
 ('FIAT', 'FIAT', 'fiat-750x410.jpg'),
 ('FORD', 'Ford', 'ford-750x410.jpg'),
 ('HYUNDAY', 'Hyunday', 'hyundai.jpg'),
 ('IVECO', 'Iveco', 'Iveco-Logo.png'),
+('JEEP', 'Jeep', 'JeepLogo.png'),
+('KIA', 'KIA', 'S0-kia-change-de-logo-658043.jpg'),
 ('MAZDA', 'Mazda', 'mazda-750x410.jpg'),
 ('MERCEDESS', 'Mercedess', 'mercedes-750x410.jpg'),
 ('NISSAN', 'Nissan', 'nissan-750x410.jpg'),
@@ -104,13 +107,17 @@ CREATE TABLE `vehicule` (
 --
 
 INSERT INTO `vehicule` (`code_vehicule`, `libelle_vehicule`, `photo`, `code_cat_fk`, `code_marque_fk`, `desc_vehicule`) VALUES
-('VHCL-001', 'DAF XF FT XF 105 Space Cab St 7.5 N', 'dax-xf-105.jpg', 'TRACTEUR', 'DAF', 'DAF XF de couleur Jaune moutard '),
-('VHCL-002', 'Volvo FH 16 460', '1162_663544426943.jpg', 'TRACTEUR', 'VOLVO', 'Belle Volvo de couleur noir '),
 ('VHCL-003', 'Actross Mercedess', 'S7-gamme--mercedes-actros.jpg', 'TRACTEUR', 'MERCEDESS', 'Belle Actrosse de couleur grenat'),
-('VHCL-004', 'Scania S 730', 'unnamed.jpg', 'TRACTEUR', 'SCANIA', 'Scania S 730 Highline'),
-('VHCL-005', 'Scania R 480 ', 'Scania_R480_Highline.jpeg', 'TRACTEUR', 'SCANIA', 'Scania R Streamline  de couleur gris rose teinté'),
+('VHCL-005', 'Scania R 480 ', 'png-clipart-scania-ab-car-euro-truck-simulator-2-american-truck-simulator-car-freight-transport-driving-thumbnail.png', 'TRACTEUR', 'SCANIA', 'Scania R Streamline  de couleur gris rose teinté'),
 ('VHCL-006', 'DAF XF Euro ', 'daf-xf-530-fts-nordic-edition,27232abd.jpg', 'TRACTEUR', 'DAF', 'Daf xf Occasion Europe, couleur Blanche'),
-('VHCL-007', 'IVECO Stralis AD 440', 'iveco-stralis-4X2.jpg', 'TRACTEUR', 'IVECO', 'Injection à rampe commune - gestion électronique de l’injection - filtre à combustible principal multi-filtration');
+('VHCL-007', 'IVECO Stralis AD 440', 'iveco-stralis-4X2.jpg', 'TRACTEUR', 'IVECO', 'Injection à rampe commune - gestion électronique de l’injection - filtre à combustible principal multi-filtration'),
+('VHCL-008', 'KIA Pride ', 'kia-pride-2005-2011-1604038837.587081.png', 'PLAISIR', 'KIA', 'KIA Pride 2006 (RIO) SLX Diesele Occasion Belgique'),
+('VHCL-009', 'Mazda Eclipse ', 'mazdaEclipse.png', 'MINIBUS', 'MAZDA', 'Mazda Eclipse Bongo Van Mini-bus Année 2006'),
+('VHCL-010', 'Nissan HardBody', 'unnamed.jpg', 'PICKUP', 'NISSAN', 'Nissan Patrol Nissan Hardbody Truck Pickup Truck Voiture, ramasser, camion, camionnette png'),
+('VHCL-011', 'Toyota HILLUX ', 'Hillux2.png', 'PICKUP', 'TOYOTA', 'Camionnette de voiture Toyota Hilux Pickup Southside Toyota, voiture, Voiture, camionnette png'),
+('VHCL-012', 'Opel ZAFIRA ', 'images.jpeg', 'VFML', 'OPEL', 'Opel ZAFIRA 7 Places Année 2003'),
+('VHCL-013', 'Actross ', 'ACTROSS.png', 'TRACTEUR', 'MERCEDESS', 'Mercedess-Benz  Actross Transport de marchandises'),
+('VHCL-014', 'Jeep Wrangler ', 'JEEP.png', '44', 'JEEP', 'illustration de Jeep Wrangler rouge, Jeep CJ Willys Jeep');
 
 -- --------------------------------------------------------
 

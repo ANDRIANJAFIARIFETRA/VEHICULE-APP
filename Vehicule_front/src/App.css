@@ -13,6 +13,12 @@
   }
 }
 
+.Navbar{
+  /* position: sticky; */
+  top: 0;
+  overflow: hidden;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -37,9 +43,13 @@
   }
 }
 
+.content{
+  overflow: hidden;
+}
 .main-content{
 
   margin: 20px 200px 20px 200px;
+  overflow: hidden;
 
 }
 .border-card-image .ant-upload.ant-upload-select-picture-card{
@@ -72,7 +82,9 @@
   padding: 2px 16px;
 }
 
-
+.container{
+  overflow :hidden;
+}
 
 
 svg.detail {
