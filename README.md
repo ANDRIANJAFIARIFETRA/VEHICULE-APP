@@ -18,11 +18,15 @@ Pré-requis:
    npm install 
    
    npm start
+    
+   le projet lance dans le port 3000
    
 5. cd ./Vehicule_back/ 
 
     npm install 
 
     nodemon 
+    
+    Le projet lance dans le port 5000
 
    
