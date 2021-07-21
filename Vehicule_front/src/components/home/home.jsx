@@ -184,7 +184,7 @@ export class Home extends React.Component{
 		return(
             <div className="container">
                 <div style={{marginTop:'20px'}}>
-                    <h3> Bienvenu dans ce mini-blog </h3>
+                    <h3> Bienvenu  </h3>
                     <p> Classement des véhicules par marque et catégorie </p>
                 </div>
                 <hr />

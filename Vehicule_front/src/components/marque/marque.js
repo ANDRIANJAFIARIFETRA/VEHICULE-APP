@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Card } from 'antd';
 import {base_url, upload, staticUrl} from "../../config/api.json";
 import { getAllMarques , getMarqueId, updateMarque, addMarque}  from '../../services/vehiculeService'
@@ -103,10 +103,12 @@ export class Marques extends React.Component{
                 Modal.success({
                     content:res.message,
                 });
-                this.setState({
+                useState({
                     code_marque:'',
                     libelle_marque:'',
-                    img:null,
+                    img:null
+                })
+                this.setState({
                     ModalVisible:false
                 })
 
