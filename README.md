@@ -3,7 +3,7 @@ GUIDE D'INSTALLATION
 -----------------------
 
 Pré-requis:
-  -  Server Mysql (XAMPP - WAMPP - ...)
+  -  Server Mysql (XAMPP, WAMPP, ect...)
 
 1. Création base de données 
     Nom de la base : 'vehicule'
