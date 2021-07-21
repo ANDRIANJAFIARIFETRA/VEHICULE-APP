@@ -1,0 +1,21 @@
+{
+    "base_url":"http://localhost:5000",
+    "upload":"/upload/",
+    "staticUrl":"/static/",
+    "endpoints":{
+        "getAllMarque":"/vehicule/marque/all",
+        "getMarqueId":"/vehicule/marque/get/",
+        "addMarque":"/vehicule/marque/add",
+        "updateMarque":"/vehicule/marque/put/",
+        "getAllCategorie":"/vehicule/categorie/all",
+        "searchFilter":"/vehicule/search",
+        "vehiculeFilter":"/vehicule/filter",
+        "getAllVehicule":"/vehicule/all/view",
+        "getLastVehicule":"/vehicule/last_row",
+        "insertVehicule":"/vehicule/add",
+        "getVehiculeByCode":"/vehicule/",
+        "deleteVehicule":"/vehicule/delete/",
+        "updateVehicule":"/vehicule/update/"
+    }
+
+}
