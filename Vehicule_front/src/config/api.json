@@ -1,5 +1,5 @@
 {
-    "base_url":"http://192.168.200.157:5000",
+    "base_url":"http://localhost:5000",
     "upload":"/upload/",
     "staticUrl":"/static/",
     "endpoints":{
